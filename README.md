@@ -19,12 +19,12 @@ npm install -g serve
 npm run build
 ```
 
-3) Launch the app from the generated `dist` folder
+3) Launch the app. A `dist` folder has been generated, the following command will use the `dist` content.
 ```
-serve -s dist
+npm run start:prod
 ```
 
-4) Access to the page at `http://localhost:5000`
+4) Access to the page at `http://localhost:3000`
 
 5) Open the chrome's console, go to the `Lighthouse` tab and run an audit with the Performance box checked (you can remove the other checkboxes)
 
