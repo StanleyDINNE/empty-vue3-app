@@ -38,6 +38,8 @@ Note: If you want to run the build-report command on your own vue 3 app, you nee
 
 2) Open the generated report file: `dist/report.html`
 
+Click on the button `Show content of concatenated modules` in the left menu to see the details.
+
 
 ### Compiles and hot-reloads for development
 ```
