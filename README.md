@@ -9,24 +9,19 @@ npm install
 
 ### Run the application in production mode:
 
-1) Install `serve` 
-```
-npm install -g serve
-```
-
-2) Build the application
+1) Build the application
 ```
 npm run build
 ```
 
-3) Launch the app. A `dist` folder has been generated, the following command will use the `dist` content.
+2) Launch the app. A `dist` folder has been generated, the following command will use the `dist` content.
 ```
 npm run start:prod
 ```
 
-4) Access to the page at `http://localhost:3000`
+3) Access to the page at `http://localhost:3000`
 
-5) Open the chrome's console, go to the `Lighthouse` tab and run an audit with the Performance box checked (you can remove the other checkboxes)
+4) Open the chrome's console, go to the `Lighthouse` tab and run an audit with the Performance box checked (you can remove the other checkboxes)
 
 ### Measure the bundle size:
 
