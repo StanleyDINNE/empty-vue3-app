@@ -25,6 +25,8 @@ npm run start:prod
 
 ### Measure the bundle size:
 
+1) Build report
+
 ```
 npm run build-report
 ```
@@ -33,6 +35,9 @@ Note: If you want to run the build-report command on your own vue 3 app, you nee
 ```
     "build-report": "vue-cli-service build --report",
 ```
+
+2) Open the generated report file: `dist/report.html`
+
 
 ### Compiles and hot-reloads for development
 ```
