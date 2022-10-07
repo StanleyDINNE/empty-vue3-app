@@ -1,16 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MyImage v-for="i in 2000" v-bind:key="i" v-bind:i="i"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MyImage from "./components/MyImage";
 
 export default {
+
   name: 'App',
   components: {
-    HelloWorld
-  }
+    MyImage
+  },
+  data() {
+    return {
+    };
+  },
 }
 </script>
 
